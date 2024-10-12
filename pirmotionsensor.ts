@@ -1,8 +1,8 @@
 /**
  * Custom blocks
  */
-//% weight=100 color=#0fbc11 icon="" block="RIPモーションセンサ"
-namespace IMLmotionsensor {
+//% weight=100 color=#0fbc11 icon="" block="PIRモーションセンサ"
+namespace IML_motionsensor {
 
     const MOTION_EVENT_ID = 1001
     const MOTIONED = 1
