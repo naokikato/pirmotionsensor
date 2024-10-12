@@ -1,6 +1,6 @@
 {
     "name": "pirmotionsensor",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "GROVE モーションセンサ （PIR Motion Sensor v1.2）",
     "dependencies": {
         "core": "*",
