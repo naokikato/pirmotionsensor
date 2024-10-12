@@ -11,9 +11,9 @@ namespace IML_motionsensor {
     let motionstatus = false
 
     //% block
-    //% block="ピン設定 %pin"
+    //% block="モーションセンサのピンを%pinに設定する "
     //% weight=100   
-    export function setpin(pin: DigitalPin) {
+    export function setPin(pin: DigitalPin) {
         datapin = pin
         pins.setPull(datapin, PinPullMode.PullNone)
     }
@@ -21,7 +21,7 @@ namespace IML_motionsensor {
     //% block
     //% block="動いた"
     //% weight=99  
-    export function ismove(): boolean {
+    export function isMove(): boolean {
         return motionstatus
     }
 
